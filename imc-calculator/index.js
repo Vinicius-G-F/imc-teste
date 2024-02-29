@@ -1,6 +1,7 @@
 const calcular = window.document.querySelector('#botaocalcular')
 
-function Calcular(){
+function Calcular(event){
+    event.preventDefault();
     const nomebruto = window.document.querySelector('#nome')
     const alturabruta = window.document.querySelector('#altura')
     const pesobruto = window.document.querySelector('#peso')
