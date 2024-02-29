@@ -10,6 +10,7 @@ function Calcular(event){
     if (nomebruto, alturabruta, pesobruto !== ''){
         let nome = nomebruto.value
         let altura = Number(alturabruta.value)
+        altura = altura / 100;
         let peso = Number(pesobruto.value)
         let divisao1 = peso / altura
         let divisao2 = divisao1 / altura
